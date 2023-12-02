@@ -5,6 +5,18 @@
 *:active { text-decoration: none; }
 *{box-sizing: border-box;}
 
+@media only screen and (max-width: 600px) {
+  .logo{
+    visibility: hidden;
+  }
+  .contents{
+    visibility: hidden;
+  }
+  .menu{
+    visibility: hidden;
+  }
+}
+
 *:link{
   color: white;
 }
