@@ -53,8 +53,8 @@ body {
 }
 
 .logo img:hover{
-  filter:invert();
-  transition: 1s;
+  filter:contrast(200%);
+  transition: 500ms;
 }
 
 .logo{
